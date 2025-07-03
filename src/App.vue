@@ -10,4 +10,5 @@ onMounted(() => {
 <template>
   <Header />
   <Hero />
+  <Service />
 </template>
