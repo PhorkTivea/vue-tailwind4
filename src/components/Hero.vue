@@ -23,14 +23,14 @@ const stats = ref([
               kilometers by National Road 3.
             </p>
           </hgroup>
-          <nav data-aos="fade-up" data-aos-duration="400">
+          <nav data-aos="fade-up" data-aos-duration="600">
             <a href="#appointment" class="bg-pink-600 hover:bg-pink-700 text-white font-bold px-5 py-2 transition-colors duration-200
               shadow-md focus:ring-2 focus:ring-pink-800 focus:ring-offset-2">
               Book Appointment
             </a>
           </nav>
           <!-- Star Section -->
-          <aside data-aos="fade-up" data-aos-duration="600" class="py-6">
+          <aside data-aos="fade-up" data-aos-duration="800" class="py-6">
             <ul class="flex flex-wrap justify-center lg:justify-start gap-x-6 gap-y-4 text-center">
               <li v-for="(stat, index) in stats" :key="index" class="w-1/2 sm:w-auto">
                 <strong class="text-2xl font-bold text-pink-600">{{ stat.value }}</strong>
@@ -45,12 +45,12 @@ const stats = ref([
           <div class="relative w-full max-w-xs sm:max-w-sm md:max-w-md">
             <span class="bg-pink-500 rounded-full w-64 g-64 sm:w-80 sm:h-80 absolute -top-10 -left-10
             opacity-20"></span>
-            <img src="@assets/boy.png"
-                 class="relative z-10 rounded-full shadow-2xl w-full object-cover"
-                 width="512" height="512" loading="eager"
-            >
-
-            </img>
+             <span class="bg-purple-400 rounded-full w-48 g-48 sm:w-64 sm:h-64 absolute -bottom-10 -right-10
+            opacity-20"></span>
+            <img src="@assets/nurse.jpg"
+                class="relative z-10 rounded-full shadow-2xl w-95 aspect-square object-cover"
+                loading="eager"
+            />
           </div>
         </figure>
       </article>
